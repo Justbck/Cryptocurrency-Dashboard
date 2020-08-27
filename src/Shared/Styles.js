@@ -4,7 +4,7 @@ export const lightTheme = theme === 'light';
 
 export const color = lightTheme ? 'white' : '#2e3047';
 export const color2 = lightTheme ? 'white' : '#010e2c';
-export const color3 = lightTheme ? '#3bba9c' : '#3bba9c';
+export const color3 = lightTheme ? '#5cd65c' : '#5cd65c';
 
 if (lightTheme) {
   document.body.style.background = '#e1eaee';
@@ -18,7 +18,7 @@ export const greenBackgroundColor = `background-color: ${color3};`;
 export const fontColorGreen = `color: #03A9F4`;
 export const fontColorWhite = `color: white`;
 export const subtleBoxShadow = `box-shadow: 0px 0px 5px 1px ${lightTheme ? '#a9b6ff' : ' #232848'}`;
-export const greenBoxShadow = `box-shadow: 0px 0px 10px 2px #3bba9c`;
+export const greenBoxShadow = `box-shadow: 0px 0px 2px 2px #5cd65c`;
 export const redBoxShadow = `box-shadow: 0px 0px 2px 2px #e41111`;
 
 export const fontSizeBig = 'font-size: 2em';

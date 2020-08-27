@@ -13,6 +13,9 @@ const ChartGrid = styled.div`
     grid-template-columns: 1fr 3fr;
 `
 
+
+
+
 export default function () {
     return <Page name = "dashboard">
     <PriceGrid/>
